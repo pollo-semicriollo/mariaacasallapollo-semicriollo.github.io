@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Empresa - PRODUCCION Y VENTA DE POLLO SEMICRIOLLO</title>
+    <link rel="stylesheet" type="text/css" href="estilosContacto.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="C:\Users\crhis\OneDrive\Escritorio\Produccion y venta pollo semicriollo\imagenes\Pollos.jpg" alt="Logo de la empresa" />
+      </div>
+      <ul class="navbar">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="product.html">Productos</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <section id="contacto">
+      <div class="contact-info">
+        <h2>CONTACTANOS</h2>
+        <p>Teléfono: 313-283-0881</p>
+        <p>Correo electrónico: casallasmaria332@gmail.com</p>
+        <p>Ubicación: Vereda Piluma, Sasaima, Colombia</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.853735108053!2d-74.39037732594451!3d4.963971139320953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e408565954a0bd9%3A0xba7799861bb4048c!2sFinca%20Gualiva!5e0!3m2!1ses-419!2sco!4v1697390826402!5m2!1ses-419!2sco"></iframe>"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div id="map"></div>
+      </div>
+
+      <div class="contact-form">
+        <h2>Formulario de contacto</h2>
+        <form>
+          <input type="text" name="nombre" placeholder="Nombre" required />
+          <input type="tel" name="telefono" placeholder="Teléfono" required />
+          <input
+            type="email"
+            name="correo"
+            placeholder="Correo electrónico"
+            required
+          />
+          <input
+            type="text"
+            name="direccion"
+            placeholder="Dirección"
+            required
+          />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="C:\Users\crhis\OneDrive\Escritorio\Produccion y venta pollo semicriollo\imagenes\Pollos.jpg" alt="Logo de la empresa" />
+        </div>
+        <div class="footer-info">
+          <p>CONTACTANOS</p>
+          <p>Teléfono: 313-283-0881</p> casallasmaria332@gmail.com</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://es-la.facebook.com"
+            ><img src="imagenes/fb.jfif" alt="Facebook"
+          /></a>
+          <a href="https://web.whatsapp.com/"
+            ><img src="imagenes/wat.jfif" alt="Twitter"
+          /></a>
+          <a href="https://www.instagram.com/accounts/login/"
+            ><img src="imagenes/inst.jfif" alt="Instagram"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+      async
+      defer
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
